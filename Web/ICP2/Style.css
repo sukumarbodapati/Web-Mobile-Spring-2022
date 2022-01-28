@@ -83,7 +83,8 @@
     font-family: Calibri;
     letter-spacing: 1.2px;
     line-height: 30px;
-    font-style: italic;  
+    font-style: bold;
+    color: #fff;  
     font-weight: 600; 
     
 }
@@ -113,9 +114,9 @@
     position: relative;
     font-weight: 500;
     font-style: bold;
+    color: #fff;
     letter-spacing: 1px;
     margin: auto;
-
 }
 
 span{
@@ -123,6 +124,32 @@ span{
     font-weight: 600;
 }
 
-.dsg ul li p{
-    text-decoration: none;
+.dsg ul{
+    list-style-type: none;
 }
+
+.dsg ul li{
+    color: maroon;
+    padding: 10px 20px;
+}
+
+.head1{
+    padding-left: 25px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.icons{
+    padding: 10px 20px;
+    font-size: 60px;
+}
+
+.icons ion-icon{
+    margin-left: 50px;
+}
+
+.icons ion-icon:hover{
+    color: #fff;
+    background: #000;
+}
+
