@@ -5,7 +5,8 @@
 }
 
 .main{
-    background: linear-gradient(to top, rgba(243, 231, 231, 0.5)90%,rgba(248, 239, 239, 0.5)90%),url(Webpic.jpg);
+    background: linear-gradient(to top, rgba(243, 231, 231, 0.5)90%,rgba(248, 239, 239, 0.5)90%)
+    ,url(Webpic.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -142,6 +143,7 @@ span{
 
 .icons ion-icon{
     margin-left: 50px;
+    text-decoration: none;
 }
 
 .icons ion-icon:hover{
