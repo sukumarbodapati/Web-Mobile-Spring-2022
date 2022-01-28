@@ -136,8 +136,9 @@ span{
 }
 
 .icons{
-    padding: 10px 20px;
-    font-size: 60px;
+    padding: 20px 20px;
+    margin-top: 10px;
+    font-size: 50px;
 }
 
 .icons ion-icon{
