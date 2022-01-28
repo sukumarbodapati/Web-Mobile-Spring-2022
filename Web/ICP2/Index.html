@@ -2,8 +2,9 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <title>IC2 Assignment</title>
 </head>
+<!-- linked CSS with HTML -->
 <link rel="stylesheet" href="Style.css">
 
 <body>
@@ -13,6 +14,7 @@
             <div class="menu">
                 <!-- ul tag is used to display items in a unordered list -->
                 <ul class="unord">
+                    <!-- li tag is used to list the items  -->
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">SERVICE</a></li>
@@ -23,18 +25,23 @@
         </div> 
 
         <div class="content">
+            <!-- Display of image and on clicking it will redirected to nextpage.  -->
             <a class="icon" href="Weblogo.jpg" target="_blank">
                 <img src="Weblogo.jpg" alt="HTML tutorial" style="width: 200px;height: 200px;" >
             </a>
-           
+            <!-- Display of heading using h1 and span tags -->
             <h1>Web Design & <br><span class="sp1">Development</span> <br>Course</h1>
+            <!-- Display of content using p tag -->
             <p class="par">Web Design is a skill of creating presentations of content
                 (usually hypertext or hypermedia) <br> that is delivered to an end user through World Wide Web,
                 by way of Web browser or either <br> Web enabled software like Internet television clients, Microblogging
                 clients and RSS feeders.
             </p>
+            <!-- Block which displays ordered elements -->
             <div class="ord">
+                 <!-- ol tag is used for ordered list -->
                 <ol>
+                    <!-- Display of content using the li tag and highlighted by span tag -->
                     <li>
                         <p>Different areas of Web Design includes: <span>Graphic Design, User Interface design, Authoring,<br> experience design.</span>       </p>
                     </li>
@@ -51,10 +58,13 @@
                 </ol>
             </div>
          </div>
+         <!-- Youtube video with controls -->
          <iframe class="ved"  src="https://www.youtube.com/embed/F4fbwKV9dBU" 
          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
+
+        <!-- Block used to display the content -->
         <div class="dsg">
             
             <ul>
@@ -69,6 +79,7 @@
                 </li> 
             </ul>
         </div>
+        <!-- Block to display icons with hover effect -->
         <div class="icons">
             <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
             <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
@@ -81,6 +92,7 @@
     </div>
 
 </body>
+<!-- extracted icons from JavaScript -->
 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
 </html>
