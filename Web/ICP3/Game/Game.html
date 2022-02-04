@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!--title of the game -->
+
+<head>
+    <title>Rock Paper Scissor</title>
+    <!--To hide the playagain button-->
+    <style>
+        #closegame {
+            display: none
+        };
+    </style>
+</head>
+
+<!--to link Java script with HTML-->
+<script src="Game.js"></script>
+
+<body>
+    <!--To display the game name-->
+    <div class="GameName text-center text-info ">
+        <h1 class=" text-centre font-weight-italic">Rock paper scissor</h1>
+
+
+        <!--Start the Game-->
+        <div class="container text-centre text-info mt-5">
+            <div class=" row justify-content-md-center ">
+                <div class=" game col-md-5 p-3 text-center pt-4" id="Startgame">
+                    <!--to display the result text after each game-->
+            <h1 class="result text-info font-weight-italic display-5" id="resulttext">Let's Begin the Game </h1>
+            
+            <!--To display result of each player after each round-->
+            <p>
+                <span class="text-dark font-weight-bold">Player A : <b id="PlayA"></b></span>
+                <br>
+                <span class="text-dark font-weight-bold">Player B : <b id="PlayB"></b></span>
+            </p>
+            <!--Block for selecting the options-->
+            <div class="select">
+                <button class="Rock border border-info" value="1" onclick="game(value)"><img src="Rock.jpg "
+                        width="70px" height="70px"></button>
+                <button class="border border-info" value="2" onclick="game(value)"><img src="paper.jpg " width="70px"
+                        height="70px"></button>
+                <button class="border border-info" value="3" onclick="game(value)"><img src="scissors.jpg" width="70px"
+                        height="70px"></button>
+            </div>
+
+        </div>
+        <!--this block is used to display the playagain and final result of the game-->
+        <div class="col-md-5 p-3 text-center pt-5" id="closegame">
+            <!--To display the final result-->
+            <h1 class="result text-info font-weight-italic display-4" id="resulttext"></h1>
+            <!--To display the final results of each player-->
+            <p>
+                <span class="text-dark  font-weight-italic">PlayerA: <b id="PlayA">0</b></span>
+                <span class="text-dark font-weight-italic">PlayerB: <b id="PlayB">0</b></span>
+            </p>
+            <!--To reload the game again-->
+            <button type="button" onClick="window.location.reload();" class="btn-sm btn-info btn-block">Play
+                again</button>
+
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
