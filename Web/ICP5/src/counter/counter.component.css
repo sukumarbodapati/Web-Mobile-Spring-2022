@@ -1,0 +1,28 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.timer {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1.4em;
+  font-style:italic;
+  background-color: lightgreen;
+  letter-spacing: -1px;
+  width: 35%;
+  left: 33%;
+
+  position: relative;
+}
+.timer span {
+  font-size: 2em;
+  margin: 0 3px 0 15px;
+  outline-style: dashed;
+  
+}
+
+.heading{
+	font-family: 'Lobster', cursive;
+	font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+	color:green;
+}

@@ -1,0 +1,40 @@
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<div>
+  <div class="row text-center mt-3">
+    <div class="col-md-4"></div>
+    <button class="col-md-2 btn btn-secondary m-2" (click)="todoList = true; counter = false">TodoList</button>
+    <button class="col-md-2 btn btn-secondary m-2 " (click)="todoList = false; counter = true">Counter</button>
+    <div class="col-md-4"></div>
+  </div>
+</div>
+
+<div class="container" *ngIf="todoList">
+  <br>
+  <h1 style="text-align: center;" class="heading">To Do List</h1>
+  <br>
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-4 ">
+      <div class="input-group mb-4">
+        <input type="text" class="form-control" placeholder="Enter Todo value" aria-label="Enter TODO"
+          aria-describedby="button-addon2" [(ngModel)]="newTd">
+        <button class="btn btn-outline-secondary btn-primary" type="button" id="button-addon2" style="color: white;"
+          (click)="submitNewItem()">Add ToDo list</button>
+      </div>
+      <div>
+        <table class="table table-stripped border border-secondary">
+          <tr *ngFor="let tdl of tdls;let i=index;">
+            <th scope="row">{{i+1}}</th>
+            <td class="{{(!tdl.completed)?'completeItem':''}}" (click)="completeItem(i)">{{tdl.name}}</td>
+            <td (click)="deleteItem(i)" style="color: red;"><i class="material-icons">delete</i></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<app-counter *ngIf="counter">
+
+</app-counter>
