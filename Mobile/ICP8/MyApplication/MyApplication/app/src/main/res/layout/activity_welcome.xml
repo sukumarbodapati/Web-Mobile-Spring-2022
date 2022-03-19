@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Welcome">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="10dp"
+        android:onClick="Logoff"
+        android:text="Log off" />
+
+    <TextView
+        android:id="@+id/h"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spring 2022:Welcome to Mobile Development"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="50dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+
+        />
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.CourseWork"
+        android:layout_below="@+id/h"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="60dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/h3"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Modules"
+        android:layout_below="@+id/h1"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="60dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/h4"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.ICPS"
+        android:layout_below="@+id/h3"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="60dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/h5"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.Grades"
+        android:layout_below="@+id/h4"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="60dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+
+
+</RelativeLayout>
