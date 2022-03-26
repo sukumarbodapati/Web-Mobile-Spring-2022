@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Rod\'s Pizza Shop</string>
+    <string name="name">Name</string>
+    <string name="toppings">Toppings</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="mushrooms">Mushrooms</string>
+    <string name="olives">Olives</string>
+    <string name="sausage">Sausage</string>
+    <string name="quantity">Quantity</string>
+    <string name="initial_quantity_value">1</string>
+    <string name="order">Order</string>
+    <string name="order_summary_name">Name:<xliff:g example="Rod" id="name">%s</xliff:g></string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="order_summary_pepperoni">14 slides? <xliff:g example="yes" id="addPepperoni">%s</xliff:g></string>
+    <string name="order_summary_mushrooms">12 slides? <xliff:g example="yes" id="addMushrooms">%s</xliff:g></string>
+    <string name="order_summary_olives">Add RawOnion? <xliff:g example="yes" id="addOlives">%s</xliff:g></string>
+    <string name="order_summary_sausage">Add Olives? <xliff:g example="yes" id="addSausage">%s</xliff:g></string>
+    <string name="order_summary_quantity">Quantity: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+    <string name="order_summary_total_price">Total: $ <xliff:g example="10" id="price">%.2f</xliff:g></string>
+    <string name="thank_you">Thank you!</string>
+    <string name="too_much_pizza">Please select less than one hundred pizzas</string>
+    <string name="too_little_pizza">Please select at least one pizza</string>
+    <string name="order_summary">Summary</string>
+</resources>
